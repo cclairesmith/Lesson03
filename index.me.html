@@ -9,6 +9,72 @@ font {
 	font-family: inherit;
 	text-emphasis-color: purple;
 }
+	nav {
+	width: 100%;
+	height: 60px;
+	background-color: blueviolet;
+}
+nav p{
+	font-family: arial;
+	color: #222;
+	font-size: 24px;
+	line-height: 55px;
+	float: left;
+	padding: 0px 20px;
+	
+}
+nav ul {
+	float: left;
+}
+nav ul li {
+	float: left;
+	list-style: none;
+	
+}
+nav ul li a{
+	display:inline-block;
+	position: relative;
+	font-family: arial;
+	color: #222;
+	font-size: 14px;
+	padding: 22px 14px;
+	text-decoration: none;
+}
+	ul {
+	text-align: left;
+	list-style: none;
+	}
+	ul li {
+		font: bold 14px "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		display: inline-block;
+		position: relative;
+		padding: 15px 20px;
+		background: #fff;
+		cursor: pointer;
+	}
+	ul li:hover {
+	background: #555;
+	color: #329BF1
+}
+ul li ul {
+	padding: 0px;
+	position: absolute;
+	top: 48px;
+	left: -10000px;
+	width: 150px;
+}
+ul li ul lu {
+	background: #BE3CC1;
+	display: block;
+	color: #30E734
+}
+ul li ul li:hover {background: #666;
+}
+ul li:hover ul {
+	display: block;
+	left: 0px;
+	
+}
 h1 {
 	text-shadow: 0px 3px 3px;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
@@ -36,7 +102,28 @@ body footer p {
     <header>
 <h1><strong>RACHEL SMITH</strong><br>
       </h1>
-        <h2>Graphic Design Student</h2>
+<nav>
+	<p>RACHEL SMITH
+	<ul>
+		<li><a href="">HOME</a></li>
+		<li><a href="">PORTFOLIO</a></li>
+		<li><a href="">ABOUT ME</a>
+		<ul>
+			<li><a href="">EDUCATION</a></li>
+			<li><a href="">EXPERIENCE</a></li>
+			</ul>
+		</li>
+		<li><a href="">CONTACT</a>
+		<ul>
+			<li><a href="">EMAIL</a></li>
+			<li><a href="">SOCIAL MEDIA</a></li>
+			</ul>
+		</li>
+	</ul>
+	</p>
+	</nav>
+
+	<h2>Graphic Design Student</h2>
         <p>My name is Rachel Smith and I am in my second year of Wake Tech's Graphic Design and Advertising program. </p>
     </header>
     
